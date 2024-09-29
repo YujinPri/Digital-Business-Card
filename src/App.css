@@ -1,0 +1,165 @@
+#root {
+  max-width: 28rem;
+  margin: 0 auto;
+  padding: 2rem;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  box-sizing: border-box;
+  text-align: center;
+
+}
+
+.info-profile-pic img{
+  width: 100%;
+  border-radius: 0.625rem 0.625rem 0 0 ;
+}
+
+.info { 
+  background: #1A1B21;
+  padding-bottom: 1rem;
+}
+
+.info-name {
+  padding-top: 1.31rem;
+  margin: 0;
+}
+
+.info-job-role {
+  font-weight: 400;
+  font-size: 1rem;
+  margin: 0 ;
+  color: #F3BF99;
+}
+
+.info-website {
+  font-weight: 400;
+  font-size: 0.8rem;
+}
+
+.info-btn-group {
+  display: flex;
+  justify-content: center;
+  gap: 2.5em;
+  padding-top: 0.6rem;
+}
+
+/* .button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.6em 1.5em;
+  gap: 0.6em;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  border: 1px solid transparent;
+} */
+
+.info-email-btn {
+  background: whitesmoke;
+  color: #374151;
+  border: 1px solid transparent;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 0.6em;
+  padding: 0.6em 1.5em;
+}
+
+.info-linkedin-btn {
+  background: #5093E2;
+  color: white;
+  border: 1px solid #5093E2;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.6em;
+}
+
+.info-email-btn:hover, .info-linkedin-btn:hover {
+  opacity: 0.9; /* Hover effect for all buttons */
+}
+
+.about, .interest {
+  background-color: #1A1B21;
+  padding: 0.2em 2.25em ;
+  text-align: left;
+}
+
+.interest {
+  padding-bottom: 1em;
+}
+
+.about-title, .interest-title {
+  font-size: 1.25em;
+  margin-bottom: 0;
+}
+
+.about-content, .interest-content {
+  font-size: 0.75em;
+  margin-top: 0.3em;
+}
+
+.footer {
+  background: #161619;
+  padding: 1em 2.25em ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  border-radius: 0px 0px 10px 10px;
+
+}
+
+.footer-fb-btn, .footer-github-btn {
+  padding: 0;
+  margin: 0;
+  background-color: none;
+  border-radius: 8px;
+  border: none;
+}
+
+.footer-fb-btn:hover, .footer-github-btn:hover{
+  opacity: 0.9;
+}
+
+
+/* .logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
