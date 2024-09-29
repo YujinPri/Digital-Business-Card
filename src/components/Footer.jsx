@@ -10,13 +10,11 @@ export default function Footer() {
               </button>
             </a>
 
-            <a href="https://github.com/YujinPri">
+            <a href="https://github.com/YujinPri" target='_blank'>
               <button className='footer-github-btn'>
                 <img src={githubIcon} alt="Github Icon" />
               </button>
             </a>
-
-
         </footer>
     )
 }

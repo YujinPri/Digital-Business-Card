@@ -16,14 +16,14 @@ export default function Info() {
             </div>
 
             <div className='info-btn-group'>
-                <a href="mailto:eugene.privaldos.9@gmail.com">
-                <button className='info-email-btn'>
-                    <img src={emailIcon} alt="Email Icon" />  
-                    Email
-                </button>
+                <a href="mailto:eugene.privaldos.9@gmail.com" target='_blank'>
+                    <button className='info-email-btn'>
+                        <img src={emailIcon} alt="Email Icon" />  
+                        Email
+                    </button>
                 </a>
 
-                <a href="https://www.linkedin.com/in/eugene-privaldos/">
+                <a href="https://www.linkedin.com/in/eugene-privaldos/" target='_blank'>
                     <button className='info-linkedin-btn'>
                         <img src={linkedinIcon} alt="Linked Icon" />
                         LinkedIn
